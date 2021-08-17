@@ -7,8 +7,7 @@
 def main():
     """Creates a password"""
     password = get_valid_password()
-    for char in password:
-        print("*", end="")
+    print_hidden_password(password)
 
 
 def get_valid_password():
@@ -19,6 +18,11 @@ def get_valid_password():
         print("Invalid password length")
         password = input("Enter new password: ")
     return password
+
+
+def print_hidden_password(password):
+    for char in password:
+        print("*", end="")
 
 
 main()
