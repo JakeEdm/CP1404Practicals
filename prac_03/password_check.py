@@ -1,11 +1,10 @@
-"""Jake Edmunds - CP1404 - Password Checker"""
+"""
+Jake Edmunds - CP1404 - Password Checker
+"""
 
-
-# imports
-# CONSTANTS
 
 def main():
-    """Creates a password"""
+    """Creates a secret password"""
     password = get_valid_password()
     print_hidden_password(password)
 
