@@ -12,4 +12,5 @@ while colour != "":
         print("Invalid choice")
     colour = input("Enter a colour: ").lower()
 
+print("Hello World")
 
