@@ -1,4 +1,4 @@
-"""Module docstring"""
+"""Contains Guitar class"""
 
 
 class Guitar:
