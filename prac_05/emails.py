@@ -1,9 +1,6 @@
 """E-mails"""
 
 
-# imports
-# CONSTANTS
-
 def main():
     """Stores user emails and names in a dictionary"""
     user_details = {}
@@ -14,7 +11,6 @@ def main():
             name = input("Name: ")
         user_details[email] = name
         email = input("Email: ")
-
     for key, value in user_details.items():
         print(f'{value} ({key})')
 
